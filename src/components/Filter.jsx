@@ -21,7 +21,7 @@ function Filter({ search, setSearch, setFilter }) {
 
         <div>
             <select onChange={(e)=> setFilter(e.target.value)} className='dark:bg-[#2B3945] bg-[#FFFFFF] px-4 py-4 w-[200px] rounded-md' name="region_filter" id="region_filter">
-                <option value="" selected>Default</option>
+                <option value="" defaultValue="default" >Default</option>
                 <option value="Africa">Africa</option>
                 <option value="America">America</option>
                 <option value="Asia">Asia</option>
